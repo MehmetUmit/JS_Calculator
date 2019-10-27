@@ -1,0 +1,86 @@
+html {
+    background-color:grey;
+}
+.calc {
+    background-color:black;
+    width:259px;
+    height:292px;
+    border-radius:9px;
+    margin:auto;
+    margin-top:100px;
+    padding:8px
+}
+.keys {
+    background-color:grey;
+    color:white;
+    border-radius:9px;
+    font-size:30px;
+    height:55px;
+    width:60px;
+    font-family:Arial, Helvetica, sans-serif;
+    cursor:pointer;
+}
+.op {
+    background-color:#333;
+    color:white;
+    border-radius:9px;
+    font-size:30px;
+    height:55px;
+    width:60px;
+    font-family:Arial, Helvetica, sans-serif;
+    cursor:pointer;
+}
+.eq {
+    background-color:goldenrod;
+    color:white;
+    border-radius:9px;
+    font-size:30px;
+    height:55px;
+    width:60px;
+    font-family:Arial, Helvetica, sans-serif;
+    cursor:pointer;
+}
+.AC {
+    height:50px;
+    width:50px;
+    border-radius:6px;
+    background-color:crimson;
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:30px;
+    padding-right:45px;
+    margin-left:3px;
+    margin-top:3px;
+    cursor:pointer;
+}
+.display {
+    background-color:#bccd95;
+    border:none;
+    height:40px;
+    width:190px;
+    border-radius:6px;
+    margin-top:5px;
+    margin-left:5px;
+    position:fixed;
+    margin-bottom:1px;
+    text-align:right;
+    font-size:20px;
+    color:black;
+    cursor:not-allowed;
+}
+.keys:hover {
+    background-color:white ;
+    color:black;
+}
+.op:hover {
+    background-color:white;
+    color:black;
+}
+.AC:hover {
+    background-color:red;
+    color:black;
+}
+.eq:hover {
+    background-color:gold;
+    color:black;
+}
